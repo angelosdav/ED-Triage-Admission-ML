@@ -160,7 +160,7 @@ SHAP analysis on the meta-learner reveals how much each specialist influences th
 ## Setup
 
 ```bash
-git clone https://github.com/agelosdav-lang/ED-Triage-Admission-ML.git
+git clone https://github.com/angelosdav/ED-Triage-Admission-ML.git
 cd ED-Triage-Admission-ML
 
 python -m venv venv
