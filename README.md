@@ -36,7 +36,7 @@ Emergency departments operate under constant resource pressure. A patient who ne
 
 The model uses only information available at triage time: vitals, chief complaint, ESI level, demographics, medication history, and prior hospital usage, to generate an admission probability before any lab results or physician evaluation.
 
-The diagram above illustrates the triage workflow across the three hospitals in the dataset. A patient arrives by ambulance, walk-in, or car and is registered with administrative data. The chief complaint is recorded as binary flags, vital signs are measured, and a triage nurse assigns an ESI level from 1 to 5. Critical patients (ESI 1–2) are seen immediately, while non-critical patients (ESI 3–5) wait and have their medical history collected. The physician then makes the final admission decision — the variable this model is trained to predict.
+The diagram above illustrates the triage workflow across the three hospitals in the dataset. A patient arrives by ambulance, walk-in, or car and is registered with administrative data. The chief complaint is recorded as binary flags, vital signs are measured, and a triage nurse assigns an ESI level from 1 to 5. Critical patients (ESI 1–2) are seen immediately, while non-critical patients (ESI 3–5) wait and have their medical history collected. The physician then makes the final admission decision, which is the variable this model is trained to predict.
 
 ---
 
