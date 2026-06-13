@@ -30,7 +30,7 @@ This project's code is released under the MIT License. The dataset and original 
 
 ## The Clinical Problem
 
-![Triage Workflow](images/triage_workflow.png)
+![Triage Workflow](images/triage_workflow.svg)
 
 Emergency departments operate under constant resource pressure. A patient who needs admission but gets sent home is a critical failure, a False Negative with real consequences. A patient admitted unnecessarily ties up a bed that someone else needs. This system attempts to navigate that tradeoff at the earliest possible decision point: **triage**.
 
